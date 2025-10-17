@@ -1,0 +1,24 @@
+.toparea{
+         background-color: #B55651;
+         padding: 10px;
+         text-align: center;
+         color: white;
+  }
+
+  .logoarea{
+    background-color:#F2C38B;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .logoarea h1{
+      color:#8D5350;
+ }
+
+.logoarea h4{
+    color: black;
+}
+
+.logoarea img{
+    width:110px;
+}
