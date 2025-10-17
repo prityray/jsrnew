@@ -22,3 +22,27 @@
 .logoarea img{
     width:110px;
 }
+.principalarea{
+    padding:50px 0;
+    text-align: center;
+}
+.pimage{
+    width:300px;
+}
+
+
+.box{
+    width: 100%;
+    margin:10px;
+    padding:20px;
+    text-align: center;
+    background:white;
+    border:solid 1px black;
+}
+.box img{
+    width:100%;
+    transition: all 2s;
+}
+.box:hover img{
+    transform:rotate(360deg);
+}

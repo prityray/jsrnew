@@ -34,10 +34,12 @@ export const Home = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="principalarea">
         <Container>
           <Row>
-            <Col>Image Arow</Col>
+            <Col>
+            <img src="https://gpa.ac.in/assets/images/left-arrow.png" />
+            </Col>
           </Row>
         </Container>
       </section>
@@ -45,8 +47,11 @@ export const Home = () => {
       <section>
         <Container>
           <Row>
-            <Col>Image2</Col>
-            <Col>
+            <Col md={3}>
+            <img src="https://gpa.ac.in/assets/dr_sanjeev_kumar.jpg" className="pimage" />
+              
+            </Col>
+            <Col md={9}>
               <p>containt of peragraph</p>
             </Col>
           </Row>
@@ -64,9 +69,30 @@ export const Home = () => {
       <section>
         <Container>
           <Row>
-            <Col>Image3</Col>
-            <Col>Image4</Col>
-            <Col>Image5</Col>
+            <Col>
+            <div className="box">
+              <img src="https://gpa.ac.in/assets/images/cs.webp"/>
+              <h5>Test Data</h5>
+            </div>
+            </Col>
+            <Col>
+            <div className="box">
+              <img src="https://gpa.ac.in/assets/images/cs.webp"/>
+              <h5>Test Data</h5>
+            </div>
+            </Col>
+            <Col>
+            <div className="box">
+              <img src="https://gpa.ac.in/assets/images/cs.webp"/>
+              <h5>Test Data</h5>
+            </div>
+            </Col>
+            <Col>
+            <div className="box">
+              <img src="https://gpa.ac.in/assets/images/cs.webp"/>
+              <h5>Test Data</h5>
+            </div>
+            </Col>
           </Row>
         </Container>
       </section>
